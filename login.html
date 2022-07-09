@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color: rgb(103, 103, 205);
+            }
+            #container{
+                width: 20%;
+                margin: auto;
+                background-color: white;
+                padding: 50px 0px;
+                text-align: center;
+                margin-top: 100px;
+                border-radius: 10px;
+                
+            }
+            #signup{
+                display: flex;
+                margin-top: -20px;
+                justify-content: center;
+            }
+            #signup>button{
+                border: 0px;
+                color: rgb(6, 6, 160);;
+                background-color: white;
+                cursor: pointer;
+            }
+            #forgot{
+                display: flex;
+                justify-content: center;
+            }
+            #forgot>button{
+                border: 0px;
+                color: rgb(6, 6, 160);
+                background-color: white;
+                cursor: pointer;
+            }
+            .inp{
+                margin: 15px;
+                border: 0px;
+                width: 80%;
+                border-bottom: 2px solid grey;
+            }
+            #login{
+                background-color: rgb(229, 84, 227);
+                width: 80%;
+                padding: 15px 0px;
+                border: 0px;
+                margin-top: 15px;
+                margin-bottom: 30px;
+            }
+            h1{
+            
+                margin-bottom: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <h1>Login</h1>
+            <input class="inp" type="email" placeholder="Email">
+            <br>
+            <input class="inp" type="password" placeholder="Password">
+            <br>
+            <button id="login">Login</button>
+            <div id="forgot">
+                <p>Forgot</p><button>Password</button><p>?</p>
+            </div>
+            <div id="signup">
+                <p>Don't have an account?</p><button>Sign up</button>
+            </div>
+        </div>
+    </body>
+</html>
